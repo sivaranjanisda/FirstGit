@@ -5,6 +5,7 @@ public class Student {
 	int id;
 	String name;
 	String address;
+	String homeTown;
 	public int getId() {
 		return id;
 	}
@@ -22,6 +23,13 @@ public class Student {
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	public String getHomeTown() {
+		return homeTown;
+		
+		}
+	public void setHomeTown(String homeTown) {
+		this.homeTown = homeTown;
 	}
     
 }
