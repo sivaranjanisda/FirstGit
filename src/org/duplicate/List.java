@@ -22,6 +22,9 @@ public class List {
     System.out.println(Object2);
     Object Object3=li.get(5);
     System.out.println(Object3);
+    Object object4 =li.get(3);
+    System.out.println(object4);
+    
      
 }
 }
